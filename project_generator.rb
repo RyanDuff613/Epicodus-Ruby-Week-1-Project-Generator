@@ -27,4 +27,5 @@ system "echo 'require(\"#{project_name}\")' >> ./#{project_name}/spec/#{project_
 
 #bundle install
 system "( cd ./#{project_name} && bundle install )"
+
 puts "file structure complete"
