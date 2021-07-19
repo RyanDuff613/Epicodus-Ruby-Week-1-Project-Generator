@@ -11,6 +11,7 @@ system "mkdir ./#{project_name}/lib ./#{project_name}/spec"
 system "touch ./#{project_name}/lib/#{project_name}.rb"
 system "touch ./#{project_name}/spec/#{project_name}_spec.rb"
 system "touch ./#{project_name}/Gemfile"
+system "touch ./#{project_name}/README.md"
 
 #append Gemfile with required gems (rspec, pry)
 system "echo 'source \"https://rubygems.org\"' >> ./#{project_name}/Gemfile"
